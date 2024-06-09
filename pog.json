@@ -1,0 +1,192 @@
+{
+    "id": "01HZTA3V9N65Q73C0MT5VAXK8W",
+    "name": "Keybow 2040",
+    "manufacturer": "Pimoroni",
+    "description": "A 4x4 mini mechanical, RGB backlit macro pad based on the RP2040 chip.",
+    "tags": [],
+    "controller": "",
+    "keyboardType": "normal",
+    "wiringMethod": "direct",
+    "diodeDirection": "",
+    "rows": 0,
+    "cols": 0,
+    "pins": 16,
+    "rowPins": [],
+    "colPins": [],
+    "directPins": [
+        "SW0",
+        "SW1",
+        "SW2",
+        "SW3",
+        "SW4",
+        "SW5",
+        "SW6",
+        "SW7",
+        "SW8",
+        "SW9",
+        "SW10",
+        "SW11",
+        "SW12",
+        "SW13",
+        "SW14",
+        "SW15"
+    ],
+    "encoders": [],
+    "layouts": [],
+    "keys": [
+        {
+            "x": 0,
+            "y": 0,
+            "idx": 0
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "idx": 1
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "idx": 2
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "idx": 3
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "idx": 4
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "idx": 5
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "idx": 6
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "idx": 7
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "idx": 8
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "idx": 9
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "idx": 10
+        },
+        {
+            "x": 3,
+            "y": 2,
+            "idx": 11
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "idx": 12
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "idx": 13
+        },
+        {
+            "x": 2,
+            "y": 3,
+            "idx": 14
+        },
+        {
+            "x": 3,
+            "y": 3,
+            "idx": 15
+        }
+    ],
+    "keymap": [
+        [
+            "KC.LSFT(KC.LGUI(KC.N4))",
+            "simple_key_sequence((KC.LSFT(KC.LGUI(KC.N4)), KC.MACRO_SLEEP_MS(100), KC.SPC))",
+            "KC.END",
+            "KC.PGUP",
+            "KC.ESC",
+            "KC.UP",
+            "KC.ENT",
+            "KC.PGDOWN",
+            "KC.LEFT",
+            "KC.DOWN",
+            "KC.RIGHT",
+            "KC.LSFT",
+            "KC.LGUI(KC.SPC)",
+            "KC.LGUI",
+            "KC.LALT",
+            "KC.SPC"
+        ]
+    ],
+    "encoderKeymap": [
+        []
+    ],
+    "layers": [
+        {
+            "name": ""
+        }
+    ],
+    "split": false,
+    "splitPinA": "",
+    "splitPinB": "",
+    "splitSide": "left",
+    "vbusPin": "VBUS_SENSE",
+    "coordMap": [
+        [
+            "003",
+            "007",
+            "011",
+            "015"
+        ],
+        [
+            "002",
+            "006",
+            "010",
+            "014"
+        ],
+        [
+            "001",
+            "005",
+            "009",
+            "013"
+        ],
+        [
+            "000",
+            "004",
+            "008",
+            "012"
+        ]
+    ],
+    "pinPrefix": "board",
+    "coordMapSetup": false,
+    "rgbPin": "",
+    "rgbNumLeds": 0,
+    "kbFeatures": [
+        "basic",
+        "serial",
+        "oneshot",
+        "tapdance",
+        "holdtap",
+        "mousekeys",
+        "combos"
+    ],
+    "flashingMode": "automatic",
+    "lastEdited": "2024-06-07 23:11"
+}
